@@ -1,2 +1,2 @@
-# cs50shenanigans
-bad apple and other stuff in cs50ide
+# C-nanigans
+bad apple, and fractals in C
