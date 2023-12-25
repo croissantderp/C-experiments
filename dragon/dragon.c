@@ -256,7 +256,7 @@ char* iteration(char* input, int count){
     int xOffset = (inputPosFromLeft > rotatePosFromLeft ? inputPosFromLeft : rotatePosFromLeft);
     int yOffset = (inputPosFromTop > rotatePosFromTop ? inputPosFromTop : rotatePosFromTop);
     
-    //finds width and height of the final string, random -1 and +1s for some reason
+    //finds width and height of the final string
     int finalWidth = xOffset + (inputPosFromRight > rotatePosFromRight - 1 ? inputPosFromRight : rotatePosFromRight - 1);
     int finalHeight = yOffset + (inputPosFromBottom + 1 > rotatePosFromBottom - 1 ? inputPosFromBottom + 1 : rotatePosFromBottom - 1);
 
